@@ -9,6 +9,6 @@
 int main(void)
 {
 	printf("#!/bin/bash\n");
-	printf("gcc main -o 0-preprocessor\n");
+	printf("tail c\n");
 	return (0);
 }
