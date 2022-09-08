@@ -8,5 +8,7 @@
 
 int main(void)
 {
+	printf("#!/bin/bash\n");
+	printf("gcc main -o 0-preprocessor");
 	return (0);
 }
