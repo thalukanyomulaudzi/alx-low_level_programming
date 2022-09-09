@@ -10,10 +10,12 @@
 int main(void)
 {
 	char ch[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int i = 0;
 
-	for (int i = 0; i < 26; i++)
+	while (i < 27)
 	{
 		putchar(tolower(ch[i]));
+		i++;
 	}
 
 	return (0);
