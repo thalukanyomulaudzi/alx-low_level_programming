@@ -9,8 +9,12 @@
 
 int main(void)
 {
-	char ch = 'T';
+	char ch[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-	putchar(tolower(ch));
+	for (int i = 0; i < 26; i++)
+	{
+		putchar(tolower(ch[i]));
+	}
+
 	return (0);
 }
