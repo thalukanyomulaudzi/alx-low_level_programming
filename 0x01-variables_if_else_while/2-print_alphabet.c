@@ -9,13 +9,12 @@
 
 int main(void)
 {
-	char ch[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	int i = 0;
+	char c = 'A';
 
-	while (i < 27)
+	while (c <= 'Z')
 	{
-		putchar(tolower(ch[i]));
-		i++;
+		putchar(tolower(c));
+		c++;
 	}
 
 	return (0);
