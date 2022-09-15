@@ -5,7 +5,7 @@
  * @n2: argument 2
  * Return: results
  */
-int add(int n1, n2)
+int add(int n1, int n2)
 {
 	return (n1 + n2);
 }
