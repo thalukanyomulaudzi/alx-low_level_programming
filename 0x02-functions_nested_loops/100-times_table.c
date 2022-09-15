@@ -4,7 +4,7 @@
  * @n: arguement
  * Return: value of last digit
  */
-void print_times_table(in n)
+void print_times_table(int n)
 {
 	int r, c, p;
 
